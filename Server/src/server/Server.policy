@@ -1,0 +1,12 @@
+
+//The server.policy file permissions
+//written by obaro johnson at university of west london
+
+grant codebase "E:\Projects\Assignments\Middleware Programming\Element1\Server\-"
+{
+  // socket permission ,so that the client will be able to connect to any port number from 1024-65535
+  permission java.net.SocketPermission "*:1024-65535" ,"connect,accept" ;
+  // file permission , to restrict the client what file it can access and  how he can do with it
+  permission java.io.FilePermission  "E:\Projects\Assignments\Middleware Programming\Element1\Server\share\*" ,"read";
+  
+}//end the brace

@@ -1,0 +1,9 @@
+
+//The server.policy file permissions
+//written by obaro johnson at university of west london
+
+grant codebase "E:\Projects\Assignments\Middleware Programming\Element1\Server\-"
+{
+ permission java.security.AllPermission;
+  
+}//end the brace
