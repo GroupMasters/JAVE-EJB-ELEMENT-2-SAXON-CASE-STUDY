@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package server.share;
+package server.models;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import server.share.IEntrySite;
+import server.share.SiteInfo;
 /**
  *
  * @author Obaro
